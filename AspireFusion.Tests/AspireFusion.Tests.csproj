@@ -19,6 +19,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AspireFusion.AppHost\AspireFusion.AppHost.csproj" />
+    <ProjectReference Include="..\quick-start.Orders\quick-start.Orders.csproj" />
+    <ProjectReference Include="..\quick-start.Products\quick-start.Products.csproj" />
   </ItemGroup>
 
   <ItemGroup>
