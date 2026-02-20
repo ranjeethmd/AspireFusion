@@ -11,6 +11,6 @@ builder.AddGraphQL().AddTypes();
 var app = builder.Build();
 
 app.MapGraphQL();
-app.MapHealthChecks("/health");
+app.MapDefaultEndpoints();
 
 app.RunWithGraphQLCommands(args);
