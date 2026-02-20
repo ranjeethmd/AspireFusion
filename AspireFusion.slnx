@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="AspireFusion.AppHost/AspireFusion.AppHost.csproj" />
+  <Project Path="AspireFusion.ServiceDefaults/AspireFusion.ServiceDefaults.csproj" />
+  <Project Path="AspireFusion.Tests/AspireFusion.Tests.csproj" />
+  <Project Path="quick-start.Gateway/quick-start.Gateway.csproj" />
+  <Project Path="quick-start.Orders/quick-start.Orders.csproj" />
+  <Project Path="quick-start.Products/quick-start.Products.csproj" />
+</Solution>

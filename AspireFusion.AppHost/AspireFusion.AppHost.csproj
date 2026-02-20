@@ -1,0 +1,21 @@
+﻿<Project Sdk="Aspire.AppHost.Sdk/13.1.1">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>fdc7d0a8-5e3b-4734-8f49-25d2f55ecf97</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HotChocolate.Fusion.Aspire" Version="15.1.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\quick-start.Gateway\quick-start.Gateway.csproj" />
+    <ProjectReference Include="..\quick-start.Orders\quick-start.Orders.csproj" />
+    <ProjectReference Include="..\quick-start.Products\quick-start.Products.csproj" />
+  </ItemGroup>
+
+</Project>
